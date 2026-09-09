@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+__pycache__/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel/
+
+# Large training data (not needed for deployment)
+backend/data/Diseases_and_Symptoms_dataset.csv
+
+# Python virtual environments
+venv/
+.venv/
